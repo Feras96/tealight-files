@@ -8,7 +8,7 @@ from tealight.robot import (move,
 while touch() != 'wall':
   move()
   if touch() == 'wall':
-    elif leftside == 'wall':
+    elif left_side == 'wall':
     turn(1)
     else turn(-1)
   
