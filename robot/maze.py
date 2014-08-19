@@ -5,7 +5,7 @@ from tealight.robot import (move,
                             smell, 
                             left_side, 
                             right_side)
-if touch() != 'Wall':
+while touch() != 'Wall':
   move()
 elif touch() =='Wall':
    turn()
