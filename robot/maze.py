@@ -5,9 +5,9 @@ from tealight.robot import (move,
                             smell, 
                             left_side, 
                             right_side)
-if touch() != 'Wall':
+while touch() != 'Wall':
   move()
   
-if touch() =='Wall':
-  turn(1)
+  if touch() =='Wall':
+    turn(1)
 
