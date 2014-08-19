@@ -9,5 +9,5 @@ while touch() != 'Wall':
   move()
   
 if touch() =='Wall':
-  turn(1)
+  turn(90)
 
