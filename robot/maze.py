@@ -7,7 +7,6 @@ from tealight.robot import (move,
                             right_side)
 while touch() != 'Wall':
   move()
-  
   if touch() =='Wall':
     turn(1)
 
