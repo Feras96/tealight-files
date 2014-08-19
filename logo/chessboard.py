@@ -1,6 +1,8 @@
 from tealight.logo import move, turn
 
 for i in range(0,1000):
-  move(100)
-  turn(90)
+  while i < 80
+   move(10)
+   turn(90)
+  
  
