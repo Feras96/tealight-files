@@ -10,5 +10,5 @@ if touch() =='Wall':
   turn()
 elif touch()!='Wall':
   move()
-end
+
   
