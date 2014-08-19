@@ -15,6 +15,6 @@ while touch() != 'wall':
     elif right_side() != 'wall':
       turn(1)
     
-
+print left_side()
   
 
