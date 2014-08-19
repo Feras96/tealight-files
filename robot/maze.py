@@ -8,5 +8,5 @@ from tealight.robot import (move,
 while touch() != 'Wall':
   move()
   if touch() =='Wall':
-   turn()
+     turn()
 
