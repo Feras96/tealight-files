@@ -1,5 +1,5 @@
 from tealight.logo import move, turn
 
 for i in range(0,100):
-  move(40)
+  move(200)
   turn (90)
