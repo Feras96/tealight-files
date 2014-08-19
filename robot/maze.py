@@ -15,3 +15,4 @@ while touch() != 'wall':
     elif left_side() == 'wall' and right_side() == 'wall':
       turn(2)
     
+print left_side()
