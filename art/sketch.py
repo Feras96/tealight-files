@@ -7,6 +7,7 @@ if button == "left":
   color("red")
 elif button == "right":
   color("blue")
+  
 def handle_mousedown(x,y):
   global lastx, lasty
   
