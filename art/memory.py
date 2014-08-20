@@ -11,8 +11,6 @@ background("paper.jpg")
 
 image(200,200,"bird.png")
 
-line(560,0,560,495)
-
 text(screen_width/2, 100, "Memory Game!")
 
 lastx = None
