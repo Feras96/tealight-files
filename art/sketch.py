@@ -3,7 +3,7 @@ from tealight.art import (color, line, spot, circle, box, image, text, backgroun
 lastx = 0
 lasty = 0
 
-def handle_colour
+def handle_colour(button):
   if button == "left"
     color("red")
   elif button == "right"
