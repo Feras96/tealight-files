@@ -23,4 +23,5 @@ def handle_mousemove(x,y,button):
   
   if button == "left":
     color("red")
-  
+  if button == "right":
+    color("blue")
