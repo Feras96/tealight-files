@@ -7,7 +7,7 @@ print "This is art mode!"
 print screen_width
 print screen_height
 
-background("Card.jpg")
+background("Card.png")
 
 image(200,200,"bird.png")
 
