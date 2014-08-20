@@ -9,7 +9,7 @@ print screen_height
 
 background("paper.jpg")
 
-x = 0
+x = 150
 y = 150
 
 width = 8      
