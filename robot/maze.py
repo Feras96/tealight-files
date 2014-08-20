@@ -16,3 +16,4 @@ while touch() != 'wall':
       move()
     
 print left_side()
+print right_side()
