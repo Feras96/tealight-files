@@ -3,8 +3,8 @@ from tealight.art import (color, line, spot, circle, box, image, text, backgroun
 lastx = 0
 lasty = 0
 
-color("red")
-color("blue")
+color("red") == "right"
+color("blue") == "left"
 
 def handle_mousedown(x,y):
   global lastx, lasty
