@@ -7,9 +7,9 @@ print "This is art mode!"
 print screen_width
 print screen_height
 
-background("Card.png")
+background("paper.jpg")
 
-image(200,200,"bird.png")
+image(200,200,"Card.png")
 
 text(screen_width/2, 100, "Memory Game!")
 
