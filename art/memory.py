@@ -9,7 +9,7 @@ print screen_height
 
 background("paper.jpg")
 
-image(200,200,"Card.png")
+image(200,200,"misc/Card.png")
 
 text(screen_width/2, 100, "Memory Game!")
 
