@@ -4,9 +4,9 @@ lastx = 0
 lasty = 0
 
 def handle_mousemove(button):
-  if button == "left"
+  if button == "left":
     color("red")
-  if button == "right"
+  if button == "right":
     color("blue")
 
 def handle_mousedown(x,y):
