@@ -12,8 +12,8 @@ background("paper.jpg")
 x = 0
 y = 150
 
-width = 20      
-height = 20
+width = 8      
+height = 6
 
 for i in range(0,height):
   for j in range(0,width):
