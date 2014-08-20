@@ -5,23 +5,25 @@ y = 400
 vx = 0
 vy = 0
 ax = 0
-ay = 0.1
+ay = 0
 
 power = 0.3
-
+gravity = 0.1
 
 def handle_keydown(key):
   global ax, ay
   
 
   if key == "left":
-    ax = -power
+    ax = -power - gravity
   elif key == "right":
-    ax = power
+    ax = power - gravity
   elif key == "up":
-    ay = -power
+    ay = -power - gravity
   elif key == "down":
-    ay = power
+    ay = power - gravity
+  elif key == "none":
+    ay = gravity
 
 def handle_keyup(key):
   global ax, ay
