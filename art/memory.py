@@ -9,19 +9,11 @@ print screen_height
 
 background("paper.jpg")
 
-line(0,0,screen_width, screen_height)
-
-spot(200,300, 20)
-
-circle(300,200, 20)
-
-box(500, 500, 60, 60)
-
 image(200,200,"bird.png")
 
 line(560,0,560,495)
 
-text(600, 100, "Hello Tealight!")
+text(screen_width/2, 100, "Memory Game!")
 
 lastx = None
 lasty = None
