@@ -9,9 +9,17 @@ print screen_height
 
 background("paper.jpg")
 
-image(200,200,"misc/Card.png")
+x = 0
+y = 150
 
+width = 20      
+height = 20
+
+for i in range(0,height):
+  for j in range(0,width):
+      image(x + i * 60, y + j * 60, "misc/Card.png")
 text(screen_width/2 - 50, 100, "Memory Game!")
+
 
 lastx = None
 lasty = None
