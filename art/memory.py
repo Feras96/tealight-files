@@ -11,7 +11,7 @@ background("paper.jpg")
 
 image(200,200,"misc/Card.png")
 
-text(screen_width/2, 100, "Memory Game!")
+text(screen_width/2 - 50, 100, "Memory Game!")
 
 lastx = None
 lasty = None
