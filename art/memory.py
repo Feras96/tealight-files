@@ -34,11 +34,6 @@ def handle_mousedown(x,y,button):
   if button == "left":
     print (x,y)
 
-def handle_mousemove(x,y,button):
-  global lastx, lasty
-  
-  if button == "left":
-     print (x,y)
      
     
 
