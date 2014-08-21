@@ -3,6 +3,7 @@ from tealight.art import (color, line, spot, circle, box, image, text, backgroun
 
 name = ["a", "b", "c"]
 rank = [1, 2]
+
 class Cards(object):
   name = ""
   rank = 0
