@@ -23,7 +23,8 @@ for i in range(0,height):
       
 def position(x,y):
   [(x + i * 100, y + j * 100)]
-  
+
+coordinates = [position(x,y)]  
       
 text(screen_width/2 - 50, 100, "Memory Game!")
 
