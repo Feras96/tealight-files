@@ -32,6 +32,7 @@ lasty = 0
 def handle_mousemove(x,y,button):
   global lastx, lasty,
   
+  if 
   lastx = x
   lasty = y
   
