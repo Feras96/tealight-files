@@ -42,6 +42,8 @@ def handle_mousemove(x,y,button):
     lastx = x
     lasty = y
     
+    
+print x and y
 
 
   
