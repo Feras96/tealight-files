@@ -15,16 +15,16 @@ y = 150
 width = 8   
 height = 6
 
+def position(x,y):
+  [(x + i * 100, y + j * 100)]
+
 
 #Create grid of cards
 for i in range(0,height):
   for j in range(0,width):
       image(x + i * 100, y + j * 100, "misc/Card.png")
-      
-def position(x,y):
-  [(x + i * 100, y + j * 100)]
-
-coordinates = [position(x,y)]  
+      [position(i,j)]
+  
       
 text(screen_width/2 - 50, 100, "Memory Game!")
 
@@ -39,7 +39,7 @@ def handle_mousedown(x,y,button):
     print (x,y)
     x = lastx
     y = lasty
-    if (lastx,lasty) == position()
+    if (lastx,lasty) == 
       print True
 
      
