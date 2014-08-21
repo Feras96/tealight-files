@@ -26,9 +26,6 @@ for i in range(0,height):
 text(screen_width/2 - 50, 100, "Memory Game!")
 
 
-lastx = 0
-lasty = 0
-
 #Click detection and card identification
 def handle_mousedown(x,y,button):
   global lastx, lasty
