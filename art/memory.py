@@ -38,12 +38,12 @@ def handle_mousemove(x,y,button):
   global lastx, lasty
   
   if button == "left":
-    lastx = x
-    lasty = y
+     x = x
+     y = y
     
     
     
-print (lastx,lasty)
+print (x,y)
 
 
   
