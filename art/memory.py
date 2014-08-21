@@ -38,7 +38,7 @@ def handle_mousedown(x,y,button):
     print (x,y)
     x = lastx
     y = lasty
-    if (lastx,lasty) == position(x,y)
+    if (lastx,lasty) == position()
       print True
 
      
