@@ -34,14 +34,10 @@ def handle_mousedown(x,y,button):
   global lastx, lasty
   
   if button == "left":
-    #print (x,y)
     lastx = x
     lasty = y
     a = (lastx - 150)/100
     b = (lasty - 150)/100
-    #print lastx
-    #print a
-    #print b
     v = b * width + a
     print "Cell: (%d, %d), n: %d" % (a,b,v)
     
