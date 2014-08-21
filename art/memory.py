@@ -42,7 +42,7 @@ def handle_mousedown(x,y,button):
     print lastx
     print a
     print b
-    v = 
+    v = b * 100 + a
     print v
     
 
