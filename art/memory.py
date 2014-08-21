@@ -28,13 +28,22 @@ text(screen_width/2 - 50, 100, "Memory Game!")
 lastx = 0
 lasty = 0
 
+def handle_mousedown(x,y):
+  global lastx, lasty
+  
+  lastx = x
+  lasty = y
 
 def handle_mousemove(x,y,button):
   global lastx, lasty
   
-  if button == "left"
-  lastx = x
-  lasty = y
+  if button == "left":
+    line(lastx, lasty, x, y)
+    lastx = x
+    lasty = y
+    
+
+
   
   
   
