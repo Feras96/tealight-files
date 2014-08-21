@@ -20,6 +20,7 @@ height = 6
 for i in range(0,height):
   for j in range(0,width):
       image(x + i * 100, y + j * 100, "misc/Card.png")
+      print[]
       
       
 text(screen_width/2 - 50, 100, "Memory Game!")
@@ -33,6 +34,8 @@ def handle_mousedown(x,y,button):
   
   if button == "left":
     print (x,y)
+    x = last x
+    y = last y
 
      
     
