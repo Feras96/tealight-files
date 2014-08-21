@@ -13,10 +13,10 @@ x = 150
 y = 150
 
 width = 8   
-height = 6
+height = 
 
-Cards = [i for i in range(2)]+[i for in in range(2)]
 
+#Create grid of cards
 for i in range(0,height):
   for j in range(0,width):
       image(x + i * 100, y + j * 100, "misc/Card.png")
