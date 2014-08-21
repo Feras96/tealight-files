@@ -22,17 +22,12 @@ for i in range(0,height):
 text(screen_width/2 - 50, 100, "Memory Game!")
 
 
-lastx = None
-lasty = None
-hue = 0
+lastx = 0
+lasty = 0
+
 
 def handle_mousemove(x,y):
   global lastx, lasty, hue
-  
-  line(lastx or x, lasty or y, x, y)
-  color("hsl(%d,100%%,50%%)" % hue)
-  
-  hue += 1
   
   lastx = x
   lasty = y
