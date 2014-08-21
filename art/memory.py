@@ -26,14 +26,17 @@ for i in range(0,height):
 text(screen_width/2 - 50, 100, "Memory Game!")
 
 
+lastx = 0
+lasty = 0
+
 #Click detection and card identification
 def handle_mousedown(x,y,button):
   global lastx, lasty
   
   if button == "left":
     print (x,y)
-    x = lastx
-    y = lasty
+    lastx = x
+    lasty = y
     a = (lastx - 150)/70
     b = (lasty - 150)/100
     print lastx
