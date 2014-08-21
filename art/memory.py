@@ -39,6 +39,7 @@ def handle_mousedown(x,y,button):
     y = lasty
     a = (lastx - 150)/70
     b = (lasty - 150)/100
+    print lastx
     print a
     print b
     
