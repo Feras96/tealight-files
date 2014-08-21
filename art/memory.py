@@ -42,7 +42,8 @@ def handle_mousedown(x,y,button):
     
     
 
-
+print a
+print b
 
   
   
