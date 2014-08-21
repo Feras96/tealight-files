@@ -15,8 +15,7 @@ y = 150
 width = 8   
 height = 6
 
-def position(x,y):
-  [(x + i * 100, y + j * 100)]
+print [(x + i * 100, y + j * 100)]
 
 
 #Create grid of cards
@@ -38,7 +37,7 @@ def handle_mousedown(x,y,button):
     x = lastx
     y = lasty
 
-print position()     
+     
     
 
 
