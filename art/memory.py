@@ -12,8 +12,8 @@ background("paper.jpg")
 x = 150
 y = 150
 
-width = 8   
-height = 6
+width = 6   
+height = 8
 
 
 #Create grid of cards
