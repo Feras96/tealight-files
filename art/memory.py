@@ -13,7 +13,7 @@ x = 150
 y = 150
 
 width = 8   
-height = 
+height = 6
 
 
 #Create grid of cards
