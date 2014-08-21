@@ -43,7 +43,7 @@ def handle_mousedown(x,y,button):
     #print a
     #print b
     v = b * 100 + a
-    print "Cell: (%d, %d), n: %d" % a,b,v
+    print "Cell: (%d, %d), n: %d" % (a,b,v)
     
 
   
