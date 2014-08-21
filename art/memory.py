@@ -21,13 +21,15 @@ for i in range(0,height):
   for j in range(0,width):
       image(x + i * 100, y + j * 100, "misc/Card.png")
       print (x + i * 100, y + j * 100)
-      
+
+#Title      
 text(screen_width/2 - 50, 100, "Memory Game!")
 
 
 lastx = 0
 lasty = 0
 
+#Click detection and card identification
 def handle_mousedown(x,y,button):
   global lastx, lasty
   
@@ -35,8 +37,8 @@ def handle_mousedown(x,y,button):
     print (x,y)
     x = lastx
     y = lasty
-    #(lastx - 150)/ 70 = a
-    #(lasty - 150)/ 6 = b
+    (lastx - 150)/ 70 = a
+    (lasty - 150)/ 100 = b
     
 
 
