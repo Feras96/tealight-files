@@ -15,3 +15,5 @@ class Cards(object):
 def Show_cards(name, rank):
   Card_shown = Cards(name , rank)
   return Card_shown
+
+print ("a", 2)
