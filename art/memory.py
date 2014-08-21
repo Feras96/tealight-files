@@ -29,8 +29,8 @@ lastx = 0
 lasty = 0
 
 
-def handle_mousemove(x,y):
-  global lastx, lasty, hue
+def handle_mousemove(x,y,button):
+  global lastx, lasty,
   
   lastx = x
   lasty = y
