@@ -43,7 +43,7 @@ def handle_mousemove(x,y,button):
     lasty = y
     
     
-print x and y
+print (x,y)
 
 
   
