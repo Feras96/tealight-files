@@ -40,6 +40,7 @@ def handle_mousedown(x,y,button):
     b = (lasty - 150)/100
     v = b * width + a
     print "Cell: (%d, %d), n: %d" % (a,b,v)
+    print (x,y)
     
 
   
